@@ -23,12 +23,25 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    position: absolute;
 }
 h5{
     font-size: 2rem;
     color: white;
     font-weight: bold;
     
+}
+
+h6{
+    color: white;
+    font-weight: bold;
+    position:relative;
+    bottom: -2.5rem;
+    right: -13rem;
+    transform:rotate(-45deg);
+    background-color: rgb(17, 152, 131);
+    padding: 0.2rem 1rem;
+    border-radius: 50%;
 }
 
 #box{
